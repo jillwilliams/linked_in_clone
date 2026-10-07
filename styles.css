@@ -27,6 +27,7 @@ body {
     width: 30px;
     margin-right: 15px;
     display: block;
+    cursor: pointer;
 }
 
 /* the main portion of the navbar: icons and text */
@@ -80,17 +81,17 @@ body {
 }
 
 .left-sidebar {
-    border: 2px green solid;
+    /* border: 2px green solid; */
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.middle-sidebar {
-    border: 2px orangered solid;
-}
+/* .middle-sidebar {
+    border: 2px orangered solid; 
+} */
 
 .right-sidebar {
-    border: 2px purple solid;
+    /* border: 2px purple solid; */
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -115,6 +116,7 @@ body {
     border: 2px solid white;
     margin-left: 30px;
     margin-top: -55px;
+    cursor: pointer;
 }
 
 /* div class for the name and job */
@@ -122,7 +124,6 @@ body {
     color: #454545;
     margin-left: 20px;
 }
-
 
 /* the div for the profile text */
 .profile-text {
@@ -169,11 +170,13 @@ body {
 .my-items-try-premium div .fa-list {
     margin-left: -10px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 /*  */
 .my-items-try-premium div .fa-coins {
     margin-left: -30px;
+    cursor: pointer;
 }
 
 /* divider horizontal */
@@ -186,6 +189,7 @@ body {
     margin-left: 5px;
     margin-top: 2px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 /* ------------end of top card---------------------- */
@@ -233,14 +237,15 @@ body {
     flex-direction: column;
 }
 
-/* first post's div */
+/* first post div */
 .post-one {
     display: flex;
     flex-direction: row;
     background-color: white;
+    padding-bottom: 10px;
 }
 
-/*  */
+/* div for post one */
 .post-one-top {
     display: flex;
     flex-direction: row;
@@ -265,15 +270,13 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 /* horiz dividers on bottom of post one */
 .post-bottom .horiz-divider {
-    border-right: 2px solid #f0f2f5;
-    padding-top: 20px;
+    border-right: 1px solid #f0f2f5;
 }
 
 /* the flex dir. for bottom of post one */
@@ -303,6 +306,7 @@ body {
     height: 50px;
     border-radius: 50%;
     margin: 20px;
+    cursor: pointer;
 }
 
 /* 2nd post container */
@@ -314,7 +318,7 @@ body {
 
 /* the name Anna Leo, the description and time text */
 .post-two .post-text {
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: white;
 }
 
@@ -334,7 +338,6 @@ body {
 .working-image {
     width: 100%;
     background-color: white;
-
 }
 
 .working-image img {
@@ -342,5 +345,119 @@ body {
     margin-top: 20px;
     margin-left: 5%;
     margin-bottom: 20px;
+}
 
+/* --------end of middle section----------- */
+/* ---------start right sidebar------------ */
+.right-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+/* title and exclamation point */
+.right-sidebar .right-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+/* text: trending news */
+.right-sidebar .right-container h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* exclamation point in circle */
+.right-sidebar .right-container .fa-circle-exclamation {
+    margin-top: 15px;
+}
+
+/* the divs for all the text */
+.right-sidebar .div .right-text {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+/* the title text in the container */
+.right-sidebar .div .right-text h3 {
+    font-size: 20px;
+}
+
+/* the text under the titles */
+.right-sidebar .div .right-text h5 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* text: read more */
+.right-sidebar .div .right-text h3 span {
+    font-size: 15px;
+}
+
+/* ------------right sidebar post two---------- */
+.right-post-two {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* text: Add... */
+.right-side-post-two h5 {
+    margin-left: 80%;
+    margin-top: 20px;
+}
+
+/* text: master the 5..... */
+.right-post-two .right-post-two-text {
+    margin: 20px;
+    text-align: center;
+}
+
+/* the container for thumbnails */
+.right-thumbnail {
+    margin: auto;
+}
+
+/* dustin thumbnail */
+.right-img-thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* logo: xiaomi */
+.xiaomi {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* div for brand and demand and button */
+.demand {
+    margin: 20px;
+    text-align: center;
+}
+
+/* the learn more button */
+.learn-more-btn {
+    padding: 10px 20px;
+    color: blue;
+    border-radius: 20px;
+    border: 2px solid blue;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.learn-more-btn:hover {
+    background-color: blue;
+    color: white;
+    transition: 1s;
 }
