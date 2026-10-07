@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    color: #5f5f5f;
+    font-family: "Iceland";
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 6px 6%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* the linked-in logo */
+.navbar-left img {
+    width: 30px;
+    margin-right: 15px;
+    display: block;
+}
+
+/* the main portion of the navbar: icons and text */
+.navbar-center ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+/* the links in navbar */
+.navbar-center ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    color: #555555;
+}
+
+/* the icons */
+.navbar-center ul li a i {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.navbar-center ul li a i:hover {
+    border-bottom: 3px solid blue;
+}
+
+.navbar-center ul li a span:hover {
+    border-bottom: 3px solid blue;
+}
+
+/* the image of Dustin */
+.nav-profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+
+/* ---------------end of navbar---------------- */
+/* -------------main section------------------- */
+
+.main-container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-top: 20px;
+
+}
+
+.left-sidebar {
+    border: 2px green solid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.middle-sidebar {
+    border: 2px orangered solid;
+}
+
+.right-sidebar {
+    border: 2px purple solid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* -------------------left sidebar------------------------ */
+/* ---------------start top card-------------------------- */
+.top-card {
+    width: 100%;
+    background-color: white;
+    
+}
+
+/* image */
+.outer-space {
+    width: 90%;
+    margin-left: 5%;
+}
+
+/* pfofile img */
+.dustin-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 30px;
+    margin-top: -55px;
+}
+
+/* div class for the name and job */
+.name {
+    color: #454545;
+    margin-left: 20px;
+}
+
+
+/* the div for the profile text */
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+/* profile text div */
+.profile-text div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* the horizontal divisor */
+.divider {
+    border-bottom: 2px solid #f0f2f5;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* div for my items, try premium */
+.my-items-try-premium {
+    display: flex;
+}
+
+/* for my items/try premium */
+.my-items-try-premium div {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.horiz-divider {
+    border-left: 2px solid #f0f2f5;
+    
+}
+
+/* text: my items and try premium */
+.my-items-try-premium div h6 {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+/* ------------end of top card---------------------- */
+/* -------------start bottom card ------------------ */
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 30px;
+
+
+}
+
+/* text: recent */
+.bottom-card h3 {
+    color: #454545;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* div for text under the word recent */
+.recent-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* text under recent */
+.recent-text div {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* the icons  */
+.recent-text i {
+    color: blue;
+    margin-right: 10px;
+}
+
+/* =====================end of left sidebar======================= */
+/* ========================begin middle ========================== */
+.middle-sidebar {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post-one {
+    display: flex;
+    background-color: yellow;
+}
+
+.img-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.post-two {
+    display: flex;
+    background-color: orange;
+    margin-top: 20px;
+}
