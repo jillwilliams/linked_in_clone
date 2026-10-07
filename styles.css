@@ -77,7 +77,6 @@ body {
     display: grid;
     grid-template-columns: 30% 40% 30%;
     margin-top: 20px;
-
 }
 
 .left-sidebar {
@@ -100,7 +99,6 @@ body {
 .top-card {
     width: 100%;
     background-color: white;
-    
 }
 
 /* image */
@@ -133,7 +131,11 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    
+}
+
+/* the profile text */
+.profile-text h6 {
+    font-size: 20px;
 }
 
 /* profile text div */
@@ -153,26 +155,37 @@ body {
 /* div for my items, try premium */
 .my-items-try-premium {
     display: flex;
+    justify-content: space-around;
 }
 
 /* for my items/try premium */
 .my-items-try-premium div {
     display: flex;
-    margin-left: 20px;
     padding-top: 10px;
-    justify-content: space-around;
     padding-bottom: 10px;
 }
 
+/* the list icon */
+.my-items-try-premium div .fa-list {
+    margin-left: -10px;
+    margin-right: 5px;
+}
+
+/*  */
+.my-items-try-premium div .fa-coins {
+    margin-left: -30px;
+}
+
+/* divider horizontal */
 .horiz-divider {
     border-left: 2px solid #f0f2f5;
-    
 }
 
 /* text: my items and try premium */
 .my-items-try-premium div h6 {
     margin-left: 5px;
     margin-top: 2px;
+    font-size: 20px;
 }
 
 /* ------------end of top card---------------------- */
@@ -183,14 +196,12 @@ body {
     flex-direction: column;
     background-color: white;
     margin-top: 30px;
-
-
 }
 
 /* text: recent */
 .bottom-card h3 {
     color: #454545;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -206,6 +217,7 @@ body {
     display: flex;
     margin-left: 20px;
     margin-top: 10px;
+    font-size: 25px;
 }
 
 /* the icons  */
@@ -219,23 +231,116 @@ body {
 .middle-sidebar {
     display: flex;
     flex-direction: column;
-
 }
 
+/* first post's div */
 .post-one {
     display: flex;
-    background-color: yellow;
+    flex-direction: row;
+    background-color: white;
 }
 
+/*  */
+.post-one-top {
+    display: flex;
+    flex-direction: row;
+}
+
+/* text: write a post */
+.post-one h6 {
+    font-size: 20px;
+    padding-top: 35px;
+    margin-left: 5px;
+}
+
+/* the divider between post one and its bottom */
+.post-divider {
+    border-bottom: 2px solid #f0f2f5;
+    width: 100%;
+}
+
+/* the bottom portiom of post one */
+.post-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* horiz dividers on bottom of post one */
+.post-bottom .horiz-divider {
+    border-right: 2px solid #f0f2f5;
+    padding-top: 20px;
+}
+
+/* the flex dir. for bottom of post one */
+.post-bottom .bottom {
+    display: flex;
+    padding: 10px 10px;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+/* icons */
+.post-bottom .bottom i {
+    margin-right: 5px;
+    color: blue;
+}
+
+/* ---start second post of middle section----- */
+/* div of post two */
+.post-two {
+    display: flex;
+    flex-direction: row;
+}
+
+/* the thumbnail images */
 .img-thumbnail {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin: 20px;
+}
+
+/* 2nd post container */
+.post-two {
+    display: flex;
+    background-color: white;
+    margin-top: 30px;
+}
+
+/* the name Anna Leo, the description and time text */
+.post-two .post-text {
+    margin-top: 30px;
+    background-color: white;
+}
+
+/* the paragraph div */
+.paragraph div p {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+/* paragraph div */
+.paragraph {
+    background-color: white;
+}
+
+/* the meeting image */
+.working-image {
+    width: 100%;
+    background-color: white;
 
 }
 
-.post-two {
-    display: flex;
-    background-color: orange;
+.working-image img {
+    width: 90%;
     margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+
 }
